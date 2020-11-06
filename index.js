@@ -21,6 +21,7 @@ function currentLine(line) {
   line.forEach(function(name) {
     currentLine.push(name)
   }) 
+  return `"The line is currently: ${currentLine}`
 
   
    
