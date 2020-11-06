@@ -19,7 +19,7 @@ function currentLine(line) {
   const peopleInLine = []
   
   for (let i = 0; i < line.length; i++) {
-    copyItems.push(items[i])
+    peopleInLine.push(items[i])
   }
   
   return `"The line is currently: ${currentLine}`
