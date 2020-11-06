@@ -16,9 +16,13 @@ function currentLine(line) {
   return "The line is currently empty."
   }
   
-  line.forEach(function (element, index) {
+  line.forEach(function(element, index) {
 
 });  
+
+items.forEach(function(item){
+  copyItems.push(item)
+})
   
    
 }
