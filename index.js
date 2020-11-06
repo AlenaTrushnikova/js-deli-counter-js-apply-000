@@ -20,10 +20,8 @@ function currentLine(line) {
   
   for (let i = 0; i < line.length; i++) {
     copyItems.push(items[i])
+  }
   
-  line.forEach(function(name) {
-    currentLine.push(name)
-  }) 
   return `"The line is currently: ${currentLine}`
 
   
