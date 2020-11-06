@@ -16,7 +16,9 @@ function currentLine(line) {
   return "The line is currently empty."
   }
   
-  line.forEach  
+  line.forEach(function (element, index) {
+
+});  
   
    
 }
