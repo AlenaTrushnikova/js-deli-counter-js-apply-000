@@ -22,6 +22,6 @@ function currentLine(line) {
     peopleInLine.push(`${i + 1}. ${line[i]}`)
   }
   
-  return `"The line is currently: ${peopleInLine.join(', ')}`
+  return `The line is currently: ${peopleInLine.join(', ')}`
    
 }
