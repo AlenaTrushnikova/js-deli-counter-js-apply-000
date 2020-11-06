@@ -18,13 +18,10 @@ function currentLine(line) {
   
   const currentLine = []
   
-  line.forEach(function(element, index) {
+  line.forEach(function(name) {
+    currentLine.push(name)
+  }) 
 
-});  
-
-items.forEach(function(item){
-  copyItems.push(item)
-})
   
    
 }
