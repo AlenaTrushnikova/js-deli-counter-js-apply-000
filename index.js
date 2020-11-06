@@ -18,6 +18,9 @@ function currentLine(line) {
   
   const currentLine = []
   
+  for (let i = 0; i < line.length; i++) {
+    copyItems.push(items[i])
+  
   line.forEach(function(name) {
     currentLine.push(name)
   }) 
